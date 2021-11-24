@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 img {
   object-fit: cover;
@@ -25,6 +26,10 @@ h1 {
   margin-top: 1rem;
   font-weight: 600;
 }
+a {
+  color: inherit;
+}
+
 .cyan {
   color: hsl(178, 100%, 50%);
 }
@@ -118,4 +123,9 @@ p {
   margin-right: 1rem;
   width: 30px;
   height: 30px;
+}
+.attribution {
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 2em;
 }
